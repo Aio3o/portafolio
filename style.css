@@ -1,0 +1,82 @@
+#rafael{
+    margin-top: 20%;
+    margin-bottom: 50%;
+}
+#about{
+    margin-top: 30%;
+    margin-bottom: 50%;
+}
+#porfolio{
+    margin-top: 30%;
+    margin-bottom: 50%;
+}
+#aprendizaje{
+    margin-top: 30%;
+    margin-bottom: 50%;
+}
+#habs{
+    margin-top: 30%;
+    margin-bottom: 50%;
+}
+#contacto{
+    margin-top: 30%;
+    margin-bottom: 50%;
+}
+
+.right{
+    margin-left: 400px;
+}
+.bar_left {
+    padding-top: 10px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(66, 8, 104);
+    box-shadow: 2px 0px 2px rgba(34, 34, 34, 0.678);
+    display: block;
+    margin-top: 0;
+    padding: 80px 0;
+    list-style: none;
+    transition-duration: .25s;
+    z-index: 2;
+}
+
+.menu_btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.nav{
+    margin-top: 70%;
+}
+
+.nav2>a {
+    padding-top: 5%;
+    text-align: center;
+    color:rgb(199, 38, 151)
+}
+
+
+
+.nav2>a:hover {
+    font-size: large;
+    color: rgb(174, 201, 53);
+}
+
+
+
+body{
+    background: radial-gradient(
+        circle at 25% 90%,
+        rgb(209, 6, 228) 5%,
+        black 50%
+    );
+}
